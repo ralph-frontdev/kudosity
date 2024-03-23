@@ -16,8 +16,12 @@ export default defineNuxtConfig({
 	css: ['~/assets/css/main.css'],
 	postcss: {
 		plugins: {
-		tailwindcss: {},
-		autoprefixer: {},
+			tailwindcss: {},
+			autoprefixer: {},
+			cssnano:
+        		process.env.NODE_ENV === 'production'
+				? { preset: ['default', { discardComments: { removeAll: true } }] }
+				: false,
 		},
 	},
 	image: {
