@@ -19,28 +19,28 @@
             </h5>
             <ul class="flex flex-row items-center justify-between w-[87.5rem] pb-[6.313rem]">
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-uber.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-uber.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-wine-selectors.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-wine-selectors.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-nsw.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-nsw.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-taronga-zoo-sydney.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-taronga-zoo-sydney.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-the-university-of-melbourne.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-the-university-of-melbourne.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-cancer-council.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-cancer-council.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-the-salvation-army.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-the-salvation-army.svg" />
                 </li>
                 <li>
-                    <NuxtImg src="/images/logo/partner-logo-australian-red-cross.svg" />
+                    <NuxtImg format="webp" src="/images/logo/partner-logo-australian-red-cross.svg" />
                 </li>
             </ul>
             <div class="w-full flex flex-row gap-[4.688rem]">
@@ -149,7 +149,52 @@
                     </li>
                 </ul>
             </div>
-            
+        </div>
+    </section>
+    <section class="bg-gradient-to-br from-[#9553FB] to-[#6F2BDA] text-white">
+        <div class="max-w-[1502px] mx-auto flex flex-row gap-[2.563rem] h-full justify-between items-center text-left px-[3.75rem] py-[8.5rem]">
+            <div class="w-[622px] flex flex-col gap-[1.688rem] px-[4.688rem] py-[2.813rem]">
+                <h2 class="font-bold text-[3.625rem]">
+                    Book your demo today
+                </h2>
+                <p class="font-['Inter'] font-bold text-base">
+                    “Kudosity was the easiest and most effective marketing tool we’ve ever used for lead qualification at Uber.”
+                </p>
+                <h5>Uber, Singapore</h5>
+            </div>
+            <div class="flex flex-col gap-5">
+                <div class="flex flex-row gap-[1.875rem]">
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="First Name" aria-label="First Name">
+                    </div>
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Last Name" aria-label="Last Name">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[1.875rem]">
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Company" aria-label="Company">
+                    </div>
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Phone Number" aria-label="Phone Number">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[1.875rem]">
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Email Address" aria-label="Company">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[1.875rem]">
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <input class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Subject" aria-label="Subject">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-[1.875rem]">
+                    <div class="w-full flex items-center border-b border-white py-2">
+                        <textarea class="w-full first-line:font-['Inter'] appearance-none bg-transparent border-none text-white placeholder:text-white mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Message" aria-label="Message" />
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
