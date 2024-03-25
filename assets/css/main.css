@@ -4,4 +4,8 @@
 
 body {
     font-family: "Space Grotesk" ;
+    background-color: #fff;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: 
 }
