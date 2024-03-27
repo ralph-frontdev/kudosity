@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-gradient-to-t from-[#3c0f79] to-black to-30% text-white h-screen">
+    <section class="bg-gradient-to-t from-[#3c0f79] to-black to-25% text-white h-screen">
         <div class="flex flex-col gap-[2.563rem] h-full justify-end items-center text-center p-5 pb-[5.438rem]">
-            <NuxtImg format="webp" src="/images/home-banner.png" alt="hand holding a phone to message contact using app" width="865" height="572" class="absolute z-0 bottom-96" />
+            <NuxtImg src="/images/home-banner.png" alt="hand holding a phone to message contact using app" width="865" height="572" class="absolute z-0 bottom-80" />
             <h1 class="text-4xl lg:text-8xl z-[1]">
                 Curiosity to <span class="text-[#9553FB] align-middle"><</span>connect<span class="text-[#9553FB] align-middle">></span> with<br>customer conversations
             </h1>

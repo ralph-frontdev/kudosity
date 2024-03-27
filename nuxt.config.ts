@@ -25,6 +25,11 @@ export default defineNuxtConfig({
 		},
 	},
 	image: {
-		// Options
+		
+	},
+	app: {
+		head: {
+			link: [{ rel: 'icon', type: 'image/png', href: "/images/logo/favicon.png" }]
+		}
 	}
 })

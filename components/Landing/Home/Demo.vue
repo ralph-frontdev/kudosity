@@ -14,7 +14,7 @@
                 </button>
             </div>
             <div>
-                <NuxtImg src="/images/lead-qualification.svg" alt="lead qualification conversation app" />
+                <NuxtImg src="/images/lead-qualification.png" alt="lead qualification conversation app" width="770" height="541" />
             </div>
         </div>
     </section>
