@@ -1,41 +1,41 @@
 <template>
     <section class="bg-[#f8f7ff] text-[#18191B]">
         <div class="max-w-[1790px] mx-auto flex flex-col gap-[2.563rem] h-full justify-between items-center text-left px-5 lg:px-[2.25rem] py-12 lg:py-[6.313rem]">
-            <h2 class="text-5xl lg:text-[3.125rem] font-medium text-center">
+            <h2 class="text-2xl lg:text-5xl lg:text-[3.125rem] font-medium text-center">
                 Loved by the world’s best teams
             </h2>
             <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4">
                 <div v-for="(person, index) in visiblePersons" :key="index" class="bg-white rounded-[36px] p-8 border-[2.5px] border-[#4252FF] border-solid h-max inline-block mb-5">
                     <div class="flex flex-row gap-5">
                         <div>
-                        <NuxtImg :src="person.image" alt="person image" width="70" height="70" />
+                            <NuxtImg :src="person.image" alt="person image" width="70" height="70" />
                         </div>
                         <div class="flex flex-col">
-                        <h4 class="font-['Inter'] font-medium text-[1.646rem] pt-1 pb-2">{{ person.name }}</h4>
-                        <h5 class="font-['Inter'] font-normal text-[1.332rem] text-[#9CA3AF]">@{{ person.username }}</h5>
+                            <h4 class="font-['Inter'] font-medium text-xl lg:text-[1.646rem] pt-1 pb-0 lg:pb-2">{{ person.name }}</h4>
+                            <h5 class="font-['Inter'] font-normal text-lg lg:text-[1.332rem] text-[#9CA3AF]">@{{ person.username }}</h5>
                         </div>
                     </div>
                     <div>
-                        <div v-html="person.bio" class="font-['Inter'] font-normal text-[1.567rem] leading-normal pt-4 pb-8 content"></div>
+                        <div v-html="person.bio" class="font-['Inter'] font-normal text-lg lg:text-[1.567rem] leading-normal pt-4 pb-8 content"></div>
                     </div>
                     <div class="flex flex-row gap-4 pb-5">
-                        <time class="font-['Inter'] font-normal text-[1.097rem] text-[#9CA3AF]">{{ person.time }}</time>
-                        <date class="font-['Inter'] font-normal text-[1.097rem] text-[#9CA3AF]">{{ person.date }}</date>
+                        <time class="font-['Inter'] font-normal text-sm lg:text-[1.097rem] text-[#9CA3AF]">{{ person.time }}</time>
+                        <date class="font-['Inter'] font-normal text-sm lg:text-[1.097rem] text-[#9CA3AF]">{{ person.date }}</date>
                     </div>
                     <div class="flex flex-row items-center gap-5">
                         <div class="flex flex-row gap-2">
-                        <NuxtImg src="/images/icon/repost.svg" alt="kudosity logo" width="25" height="16" />
-                        <p class="font-['Inter'] font-normal text-[1.175rem] text-[#9CA3AF]">{{ person.reposts }}</p>
+                            <NuxtImg src="/images/icon/repost.svg" alt="kudosity logo" width="25" height="16" />
+                            <p class="font-['Inter'] font-normal text-sm lg:text-[1.175rem] text-[#9CA3AF]">{{ person.reposts }}</p>
                         </div>
                         <div>
-                        <NuxtImg src="/images/icon/heart.svg" alt="kudosity logo" width="20" height="16" />
+                            <NuxtImg src="/images/icon/heart.svg" alt="kudosity logo" width="20" height="16" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div v-if="visiblePersons.length < persons.length" class="relative w-full pb-32 pt-96 mt-[-72rem] z-[50] bg-gradient-to-t from-white to-transparent">
-            <button  @click="showMore" class="w-[271px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-xl font-semibold text-white uppercase z-[1] bg-black py-4 rounded-full leading-normal mx-auto">
+            <button  @click="showMore" class="w-[220px] lg:w-[271px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-md lg:text-xl font-semibold text-white uppercase z-[1] bg-black py-4 rounded-full leading-normal mx-auto">
                 Show more <NuxtImg src="/images/icon/arrow-right-white.svg" class="text-white" />
             </button>
         </div>

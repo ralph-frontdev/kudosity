@@ -2,13 +2,13 @@
     <section class="relative z-auto bg-gradient-to-br from-[#9553FB] to-[#6F2BDA] text-white">
         <div class="max-w-[1502px] mx-auto flex flex-col lg:flex-row h-full justify-between items-center text-left px-5 lg:px-[3.75rem] py-12 lg:py-[8.5rem] gap-8">
             <div class="max-w-[339px] flex flex-col gap-[1.688rem]">
-                <h2 class="font-bold text-5xl lg:text-[3.625rem] text-center lg:text-left">
+                <h2 class="font-bold text-2xl lg:text-5xl lg:text-[3.625rem] text-center lg:text-left">
                     Book your demo today
                 </h2>
-                <p class="font-['Inter'] font-bold text-base text-center lg:text-left">
+                <p class="font-['Inter'] font-bold text-sm lg:text-base text-center lg:text-left">
                     “Kudosity was the easiest and most effective marketing tool we’ve ever used for lead qualification at Uber.”
                 </p>
-                <h5 class="text-center lg:text-left">
+                <h5 class="text-center lg:text-left text-sm lg:text-base">
                     Uber, Singapore
                 </h5>
             </div>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="w-[285px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-xl font-semibold text-black uppercase bg-[#4AE3CE] py-4 leading-normal">
+                <button class="w-[220px] lg:w-[285px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-md lg:text-xl font-semibold text-black uppercase bg-[#4AE3CE] py-4 leading-normal">
                     Submit Request <NuxtImg src="/images/icon/arrow-right.svg" class="w-[1.151rem]" />
                 </button>
             </div>

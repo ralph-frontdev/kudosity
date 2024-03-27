@@ -3,7 +3,7 @@
         <div class="max-w-[1502px] mx-auto flex flex-col lg:flex-row gap-8 lg:gap-[2.563rem] h-full justify-between items-center text-left px-5 lg:px-[3.75rem] py-12 lg:py-[8.5rem]">
             <div class="max-w-[458px] flex flex-col gap-[1.688rem]">
                 <NuxtImg src="/images/logo/kudosity-logo.svg" alt="kudosity logo" width="184" height="42" />
-                <p class="font-['Inter'] font-bold text-base">
+                <p class="font-['Inter'] font-bold text-sm lg:text-base">
                     Kudosity is the next generation of customer engagement, enabling businesses of all sizes to unlock the power of automation at the click of a button.
                 </p>
                 <small>
