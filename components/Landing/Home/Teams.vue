@@ -33,7 +33,9 @@
                     </div>
                 </div>
             </div>
-            <button  @click="showMore" v-if="visiblePersons.length < persons.length" class="w-[271px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-xl font-semibold text-white uppercase z-[1] bg-black py-4 rounded-full leading-normal">
+        </div>
+        <div v-if="visiblePersons.length < persons.length" class="relative w-full pb-32 pt-96 mt-[-72rem] z-[50] bg-gradient-to-t from-white to-transparent">
+            <button  @click="showMore" class="w-[271px] flex flex-row gap-4 justify-center items-center font-['Raleway'] text-xl font-semibold text-white uppercase z-[1] bg-black py-4 rounded-full leading-normal mx-auto">
                 Show more <NuxtImg src="/images/icon/arrow-right-white.svg" class="text-white" />
             </button>
         </div>
@@ -116,7 +118,7 @@ const persons = ref([
         id: 8,
         name: 'Talha Altinel',
         username: 'mg',
-        image: '/images/teams/matt-galligan.png',
+        image: '/images/teams/talha-altinel.png',
         bio: '<p>I am amazed by @calcom (Calendso) \'s success, I was quite pessimistic that it would take off as a project in 2020 but here we are using Calendso and trying to self-host with improved documentation 🤣🤣</p>',
         time: '6:19 AM',
         date: 'Sep 7, 2022',
@@ -196,7 +198,7 @@ const persons = ref([
         id: 8,
         name: 'Talha Altinel',
         username: 'mg',
-        image: '/images/teams/matt-galligan.png',
+        image: '/images/teams/talha-altinel.png',
         bio: '<p>I am amazed by @calcom (Calendso) \'s success, I was quite pessimistic that it would take off as a project in 2020 but here we are using Calendso and trying to self-host with improved documentation 🤣🤣</p>',
         time: '6:19 AM',
         date: 'Sep 7, 2022',

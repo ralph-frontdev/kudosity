@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="relative z-[100]">
         <nav class="fixed w-full text-white z-10 bg-black" :class="{ 'open': isMobileMenuOpen, 'close': !isMobileMenuOpen }">
             <div class="overlay-black md:hidden"></div>
             <div class="max-w-[1740px] flex flex-row m-auto 2xl:px-0 p-5 w-full justify-between">

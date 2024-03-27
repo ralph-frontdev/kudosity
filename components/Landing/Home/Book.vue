@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gradient-to-br from-[#9553FB] to-[#6F2BDA] text-white">
+    <section class="relative z-auto bg-gradient-to-br from-[#9553FB] to-[#6F2BDA] text-white">
         <div class="max-w-[1502px] mx-auto flex flex-col lg:flex-row h-full justify-between items-center text-left px-5 lg:px-[3.75rem] py-12 lg:py-[8.5rem] gap-8">
             <div class="max-w-[339px] flex flex-col gap-[1.688rem]">
                 <h2 class="font-bold text-5xl lg:text-[3.625rem] text-center lg:text-left">
