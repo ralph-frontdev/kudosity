@@ -4,7 +4,7 @@
             <h5 class="text-xl">
                 Trusted by multiple companies
             </h5>
-            <ul class="flex flex-col lg:flex-row items-center justify-between max-w-[87.5rem] pb-[2rem] lg:pb-[6.313rem] gap-5 lg:gap-10">
+            <ul class="flex flex-col lg:flex-row items-center justify-between max-w-[87.5rem] pb-[2rem] lg:pb-[6.313rem] gap-8 lg:gap-10">
                 <li>
                     <NuxtImg format="webp" src="/images/logo/partner-logo-uber.svg" alt="uber logo" width="96" height="33" />
                 </li>

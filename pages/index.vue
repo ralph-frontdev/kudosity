@@ -3,6 +3,7 @@
     <LandingHomeCompanies />
     <LandingHomeDemo />
     <LandingHomeServices />
+    <LandingHomeTeams />
     <LandingHomeBook />
 </template>
 
@@ -12,5 +13,8 @@ useHead({
 	meta: [
 		{ name: 'description', content: 'Grow customer relationships with messaging experiences' }
 	],
+    bodyAttrs: {
+        class: 'm-0 font-inter text-base antialiased font-normal text-left leading-default bg-gray-50 text-slate-500 '
+    },
 })
 </script>

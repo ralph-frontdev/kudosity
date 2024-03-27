@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Space Grotesk", Helvetica, sans-serif ;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
 body {
-    font-family: "Space Grotesk" ;
-    background-color: #fff;
     overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: 
